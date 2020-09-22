@@ -8,11 +8,11 @@ let EmptySpaceX = 0
 let Count = 0
 let Hero: game.LedSprite = null
 basic.showLeds(`
-    # # # # #
-    . . # . .
-    . . # . .
-    # . # . .
-    . # . . .
+    # . . . #
+    # . . . #
+    # . # . #
+    # # . # #
+    # . . . #
     `)
 let Wall: game.LedSprite[] = []
 Hero = game.createSprite(2, 4)
